@@ -1,4 +1,4 @@
-package com.eeveebank.simplespring.controller;
+package com.nwboxed.simplespring.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

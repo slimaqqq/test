@@ -1,7 +1,7 @@
-package com.eeveebank.simplespring.service;
+package com.nwboxed.simplespring.service;
 
-import com.eeveebank.simplespring.model.Car;
-import com.eeveebank.simplespring.repository.CarRepository;
+import com.nwboxed.simplespring.model.Car;
+import com.nwboxed.simplespring.repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
