@@ -1,6 +1,6 @@
-package com.eeveebank.simplespring.client;
+package com.nwboxed.simplespring.client;
 
-import com.eeveebank.simplespring.model.Car;
+import com.nwboxed.simplespring.model.Car;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
