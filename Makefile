@@ -1,10 +1,4 @@
-.PHONY: init push-test delete-test
-
-init:
-	git remote add private git@github.com:eeveebank/remote-pair-programming-test-private
-
-push-test:
-	git checkout -b car-api && git pull private car-api --rebase && git push origin car-api
+.PHONY: delete-test
 
 delete-test:
-	git reset --hard && git checkout master && git branch -D car-api && git push -d origin car-api
+	git reset --hard && git checkout master && git branch -D candidate-pack-transactions && git gc --prune=now --aggressive
